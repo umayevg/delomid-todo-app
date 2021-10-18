@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Todo{% endblock %}
+
+{% block body %}
+        <a class="btn btn-secondary mb-5" href="{{ path('todo_index') }}">< back to list</a>
+
+        <h1>Add todo</h1>
+
+        {{ include('todo/_form.html.twig') }}
+{% endblock %}

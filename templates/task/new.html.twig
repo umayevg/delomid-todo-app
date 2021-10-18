@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Task{% endblock %}
+
+{% block body %}
+    <a class="btn btn-secondary mb-5" href="{{ path('todo_index') }}">< back to list</a>
+    <h1>Create new Task</h1>
+
+    {{ include('task/_form.html.twig') }}
+
+{% endblock %}

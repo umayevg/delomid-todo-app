@@ -1,0 +1,24 @@
+DELOMID-IT - Test technique Symfony
+! Clonez ce repository (ne pas éditer celui-ci)
+
+L'application
+Le but de l'exercice est de créer une API complète de Todo-List.
+
+Vous devrez exposer une API.
+
+Fonctionnalités
+ Se connecter via un identifiant (exemple : email / mot de passe)
+ Créer une todo-list et des tâches associées
+ Ajouter une tâche dans une todo-list existante
+ Seul le propriétaire de la todo-list peut la supprimer
+ Seul le propriétaire de la tâche ou de la todo-list parente peut la modifier/supprimer
+ Tous les autres utilisateurs peuvent voir les todo-list et tâches des autres
+ Pouvoir filtrer les tâches/todo-list à afficher
+ Bonus : Ajouter un système de status des tâches/todo-list
+ Bonus : Faire un front ? Web ? Mobile ?
+Technologies
+Gestionnaire de version : GIT obligatoirement
+Librairies externes autorisées
+Framework Symfony 4.x ou 5x
+Langage de programmation front libre
+Base de données libre

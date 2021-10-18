@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Todo{% endblock %}
+
+{% block body %}
+    <a class="btn btn-secondary mb-5" href="{{ path('todo_index') }}">< back to list</a>
+    <h1>Edit Todo</h1>
+
+    {{ include('todo/_form.html.twig', {'button_label': 'Update'}) }}
+
+    {{ include('todo/_delete_form.html.twig') }}
+{% endblock %}
