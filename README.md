@@ -1,4 +1,4 @@
-# delomid-todo-app
+# Todo App built on Symfony
 
 ```
 composer install
